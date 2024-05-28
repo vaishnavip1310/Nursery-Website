@@ -1,0 +1,19 @@
+.navcolor {
+                background-color: rgba(237, 150, 158, 1);
+               
+            }
+              
+           /*.nav-link {
+            color: ivory !important;
+           } */
+           .nav-link {
+            color:white ;
+           } 
+           .nav-link:hover
+           {
+               color:rgba(52, 58, 64, 1);
+           }
+ 	
+  
+ 
+  
