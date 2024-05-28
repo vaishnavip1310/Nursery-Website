@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+
+                     <style>                                   
+                                        body
+		{
+			background-color:#47641C;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form1 {
+			background-color: green;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form1-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form1-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form1-control input,
+		.form1-control select,
+		.form1-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form1-control input[type="radio"],
+		.form1-control input[type="checkbox"] {
+			display: compact;
+			width: 50px;
+		}
+
+		/* Styling Button */
+		button1 {
+			background-color: #009933;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+
+
+
+
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Plantector</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        
+            <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i>Plantector
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+	    <li class="nav__item">
+                            <a href="#feedback" class="nav__link">Feedback</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="Register.html" class="nav__link">register user</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="Plants/nurserylive-combo-packs-plants-best-4-plants-to-kill-indoor-pollution.jpg" alt="" class="home__img">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Planting for<br> the Blazing Eventuality 
+                        </h1>
+                        <p class="home__description">
+                            Create incredible plant design for your offices or home. 
+                            Add beautiful and creative designs to your place.
+                        </p>
+                        <a href="explore.html" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                    </div>
+            </section>
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="Plants/raat-rani-night-blooming-jasmine.avif" alt="" class="about__img">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+                        <p class="about__description">
+                            We have over our customers trust our plant
+	        process and delivery service every time
+                        </p>
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+                       <button class="button button--flex">
+	   <a href="shop.html">Shop Now</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> products
+                </h2>
+                <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="nav__toggle"></div><a href="Rose Plant.html">
+                        <img src="Plants/miniature-rose-button-rose.avif" alt="" class="product__img" height="40px" width="40px"></a>
+                        <h3 class="product__title">Rose Plant</h3>
+                        <span class="product__price">5490Rs</span>  
+                    </article>
+	
+                    <article class="product__card">
+                        <div class="nav__toggle"></div><a href="Mogra.html">
+                        <img src="Plants/mogra.jpg" alt="" class="product__img" height="40px" width="40px"></a>
+                        <h3 class="product__title">Mogra</h3>
+                        <span class="product__price">870Rs</span>
+                        </article>
+	
+	   <article class="product__card">
+	   <div class="nav__toggle"></div><a href="peace-lily.html"></a>
+	   <img src="Plants/peace-lily-spathiphyllum.avif" alt="" class="product__img" height="40px" width="40px">
+                       <h3 class="product__title">peace-lily</h3>
+                       <span class="product__price">799Rs</span>
+                    </article>
+	
+                    <article class="product__card">
+                        <div class="nav__toggle"></div><a href="Jasmine Plant.html">
+                        <img src="Plants/nurserylive-g-jasminum-sambac-mogra-arabian-jasmine-1_222x295.avif" alt="" class="product__img" height="40px" width="40px"></a>
+                        <h3 class="product__title">Jasmine Plant</h3>
+                        <span class="product__price">600Rs</span>
+                    </article>
+	
+                    <article class="product__card"><a href="Parijat Plant.html">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/parijat.avif" alt="" class="product__img" height="40px" width="40px"></a>
+                        <h3 class="p';roduct__title">Parijat Plant</h3>
+                        <span class="product__price">700Rs</span>
+                    </article>
+	
+                   <!--==== <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/damascus-rose-scented-rose.avif" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Jade Plant</h3>
+                        <span class="product__price">850Rs</span>
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/elephant-bush-portulacaria-afra-jade-plant.avif" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Elephant Bush Plant</h3>
+                        <span class="product__price">760Rs</span>
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/madhumalti-dwarf-rangoon-creeper-plant.avif" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Madhumalti Plant</h3>
+                        <span class="product__price">900Rs</span>
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/nurserylive-krishna-tulsi-plant-holy-basil-ocimum-tenuiflorum.avif" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Krishna Tulsi Plant</h3>
+                        <span class="product__price">459Rs</span>
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Aglaonema-Firecracker_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Aglaonema Plant</h3>
+                        <span class="product__price">559Rs</span>
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Aglaonema-Tigress_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Aglaonema-Tigress </h3>
+                        <span class="product__price">650Rs</span>    
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Aspidistra_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Aspidistra Plant</h3>
+                        <span class="product__price">550Rs</span> 
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Kentia-Palm_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Kentia-Palm</h3>
+                        <span class="product__price">1300Rs</span>    
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Mass-Cane-Hawaiian_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Mass Cane</h3>
+                        <span class="product__price">430Rs</span>    
+                    </article>
+	
+	 <article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Palm-Neanthe-Bella_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Palm Neanthe Bella</h3>
+                        <span class="product__price">450Rs</span>    
+                    </article>
+	
+	<article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/PothosGolden_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Pothos Golden Plant</h3>
+                        <span class="product__price">460Rs</span>
+                    </article>
+	
+	<article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Pothos-Marble-Totem_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Pothos Marble Totem</h3>
+                        <span class="product__price">560Rs</span>
+                    </article>
+	
+	<article class="product__card">
+                        <div class="nav__toggle"></div>
+                        <img src="Plants/Sansevieria-Laurentii_Low_Light.png" alt="" class="product__img" height="40px" width="40px">
+                        <h3 class="product__title">Sansevieria Laurentii</h3>
+                        <span class="product__price">7500Rs</span>
+                    </article>======--->
+	
+	<button class="button button--grid"><a href="shop.html">
+                           <style="background-color:red"> View More</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                </div>
+            </section>
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +93 8600999938
+                                </span>
+                            </div>
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    Plantector@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label"><center>Email</center></label>
+                            </div>
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label"><center>Subject</center></label>
+                            </div>
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label"><center>Message</center></label>
+                            </div>
+                        </div>
+                        <button class="button button--flex"><a href="message.html">
+                            Send Message</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+	     </div>
+                    </form>
+               
+              <div class="feedback__container grid">
+                <h2 class="section__title-center">
+                    Feedback Form
+                </h2>
+                
+                <section class="feedback" id="feedback">
+                <form id="form1" action="" class="feedback__form">
+                        <div class="feedback__inputs">
+                            <div class="feedback__content">
+	
+	
+	
+	
+	<div style="background-image:url(Images1/R.jpg)">
+
+
+		<!-- Details -->
+		<div class="form1-control">
+			<label1 for="name" id="label-name">
+			Name
+			</label1>
+
+			<!-- Input Type Text -->
+			<input type="text"
+			id="name"
+			placeholder="Enter your name" />
+		</div>
+
+		<div class="form1-control">
+			<label1 for="email" id="label-email">
+			Email
+			</label1>
+
+			<!-- Input Type Email-->
+			<input type="email"
+		                    id="email"
+			placeholder="Enter your email" />
+		</div>
+
+		<div class="form1-control">
+			<label1 for="phone no" id="label-phone no">
+			Phone No : 
+			</label1>
+
+			<!-- Input Type Text -->
+			<input type="text"
+			id="age"
+			placeholder="Enter your age" />
+		</div>
+
+		
+
+		<div class="form1-control">
+			<label1>
+			Would you recommend Plantector
+			to a friend/relatives?
+			</label1>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+			<input type="radio"
+			id="recommed-1"
+			name="recommed">Yes</input>
+			</label>
+			
+			<label for="recommed-2">
+			<input type="radio"
+			id="recommed-2"
+			name="recommed">No</input>
+			</label>
+			
+			<label for="recommed-3">
+			<input type="radio"
+			id="recommed-3"
+			name="recommed">Maybe</input>
+			</label>
+		</div>
+
+		<div class="form1-control">
+			<label1>Features of Plantector that you like the most 
+			<small>(Check all that apply)</small>
+			</label1>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+			<input type="checkbox"
+			name="inp">Easy to Use</input></label>
+			
+			<label for="inp-2">
+			<input type="checkbox"
+			name="inp">Product Qality</input></label>
+			
+			<label for="inp-3">
+			<input type="checkbox"
+			name="inp">Budget Friendly</input></label>
+		
+			</div>
+
+		<div class="form1-control">
+			<label1 for="comment">
+			Any comments or suggestions
+			</label1>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+			placeholder="Enter your comment here">
+			</textarea>
+		</div>
+		</div>
+		</div>
+		<!-- Multi-line Text Input Control -->
+		
+		 <button class="button button--flex">
+                            <a href="Thank you.html">Submit</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+	    </div>
+		
+</form>
+            </section>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Plantector
+                    </a>
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+                        <button class="button button--flex footer__button">
+                            <a href="Subscribe.html"> Subscribe</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information">Salokhenagar</li>
+                        <li class="footer__information">Kalamba - 416008</li>
+                        <li class="footer__information">Kolhapur</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information"> +93 8600999938</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+	    </h3>
+                    <div class="footer__cards">
+                        <img src="Images1/card1.jfif" alt="" class="footer__card">
+                        <img src="Images1/card2.jfif" alt="" class="footer__card">
+                        <img src="Images1/card3.jfif" alt="" class="footer__card">
+                        <img src="Images1/card4.jfif" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Plantector. All rigths reserved</p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
